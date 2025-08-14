@@ -34,8 +34,8 @@ MAXLEN = int(cfg.get("maxlen", 65))  # fallback if not present
 
 # ---------- UI ----------
 st.set_page_config(page_title="Sentiment Analysis", page_icon="🗣️", layout="centered")
-st.title("🗣️ Sentiment Analysis (LSTM)")
-st.write("Type a product review, press **Enter** or click **Predict** to see the sentiment.")
+st.title("🗣️ Sentiment Analysis ")
+st.write("Type a product review,  click **Predict** to see the sentiment.")
 
 # Use a form so pressing Enter submits
 with st.form("predict_form", clear_on_submit=False):
